@@ -19,11 +19,9 @@
 | [product-service](https://github.com/Profect-4th-IRUM/product-service) | 상품/카테고리 서비스 | 2•3차 |
 | [order-service](https://github.com/Profect-4th-IRUM/order-service) | 주문/쿠폰 서비스 | 2•3차 |
 | [payment-service](https://github.com/Profect-4th-IRUM/payment-service) | 결제 서비스 | 2•3차 |
-| [global-module](https://github.com/Profect-4th-IRUM/global-module) | MSA 서비스 공통 모듈 | 2•3차 |
-| [open-feign-client](https://github.com/Profect-4th-IRUM/open-feign-client) | Open Feign Client 공통 모듈 | 2•3차 |
-| [config-repo](https://github.com/Profect-4th-IRUM/config-repo) | application.yaml 중앙 관리용 레포 | 2차 |
 | [api-gateway](https://github.com/Profect-4th-IRUM/api-gateway) | Spring Cloud API Gateway 레포 | 2차 |
 | [service-discovery](https://github.com/Profect-4th-IRUM/service-discovery) | Netflix Eureka 레포 | 2차 |
+| [config-server](https://github.com/Profect-4th-IRUM/config-server) | config 중앙화 서버 | 2차 |
 
 ### DevOps
 | 레포지토리 | 설명 | 프로젝트 차수 |
