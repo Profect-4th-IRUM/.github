@@ -10,6 +10,15 @@
 - 2차: MSA 아키텍처 (ECS + Spring Cloud)
 - 3차: MSA 아키텍처 (Kubernetes + Istio)
 
+### 차수별 특징
+| 차수 | 주요 특징 | 배포환경 | CI/CD |
+| --- | --- | --- | --- |
+| 1차 | Monolith MVP | EC2 | GitHub Actions |
+| 2차 | MSA 전환, 낙관적 락 적용 | ECS Fargate | Jenkins + Terraform |
+| 3차 | Kafka 도입, 서비스 메시 도입 | EKS + Istio | GitHub Actions + ArgoCD |
+
+📑[2차 설계서](https://bal1oon.oopy.io/2bbadc51-d61a-80eb-97d9-db99ba832263) 📑[3차 설계서](https://bal1oon.oopy.io/2bbadc51-d61a-8060-a580-c06514dd5733)
+
 ## 레포지토리 구조
 ### Backend
 | 레포지토리 | 설명 | 프로젝트 차수 |
@@ -31,3 +40,11 @@
 | [jenkins-pipelines](https://github.com/Profect-4th-IRUM/jenkins-pipelines) | Jenkins 파이프라인 | 2차 |
 | [come2us-eks](https://github.com/Profect-4th-IRUM/come2us-eks) | EKS를 통한 MSA 서비스 배포 | 3차 |
 | [come2us-gitops](https://github.com/Profect-4th-IRUM/come2us-gitops) | ArgoCD GitOps 레포 (Helm, Istio 매니페스트) | 3차 |
+
+---
+## Links
+
+보다 자세한 내용은 아래 링크들을 통해 확인 부탁드립니다.
+
+🔗 [2차 발표 자료](https://www.canva.com/design/DAHCgPapfU8/Se_nQ38n1tg2ihQ2iFy05g/view?utm_content=DAHCgPapfU8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hceff89ae4a) \
+🔗 [최종 발표 자료](https://www.canva.com/design/DAHCgMLvBQU/zf3Y3HgDsdM3xJDewaaY5g/view?utm_content=DAHCgMLvBQU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hcce0a6f7c8)
